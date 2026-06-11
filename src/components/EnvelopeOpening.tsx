@@ -26,7 +26,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           width: 100%;
           min-height: 100%;
           margin: 0;
-          background: #e9e2d8;
+          background: #E8C8C8;
         }
 
         .scene {
@@ -36,7 +36,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           align-items: center;
           justify-content: center;
           padding: 20px;
-          background: radial-gradient(ellipse at 30% 20%, #f5ebe0 0%, #e8ddd3 40%, #d4c4b0 100%);
+          background: radial-gradient(ellipse at 30% 20%, #FFF0F0 0%, #FDE8E8 40%, #E8C8C8 100%);
           perspective: 1500px;
           overflow: hidden;
           font-family: "Cormorant Garamond", serif;
@@ -56,14 +56,14 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           height: 400px;
           top: -100px;
           right: -100px;
-          background: radial-gradient(circle, rgba(201,169,110,0.15) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(123,17,19,0.15) 0%, transparent 70%);
         }
         .scene::after {
           width: 300px;
           height: 300px;
           bottom: -80px;
           left: -80px;
-          background: radial-gradient(circle, rgba(176,137,104,0.12) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(92,8,9,0.15) 0%, transparent 70%);
         }
 
         .envelope-container {
@@ -83,9 +83,9 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         .envelope-base {
           position: absolute;
           inset: 0;
-          background: linear-gradient(145deg, #f5ebe0, #ede3d6);
+          background: linear-gradient(145deg, #7B1113, #5C0809);
           border-radius: 6px;
-          box-shadow: 0 30px 60px -15px rgba(139,111,71,0.3), 0 0 0 1px rgba(201,169,110,0.1);
+          box-shadow: 0 30px 60px -15px rgba(92,8,9,0.5), 0 0 0 1px rgba(201,169,110,0.3);
           z-index: 1;
         }
 
@@ -93,11 +93,11 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
         .card-container {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, #fffdf9 0%, #faf6f1 50%, #f8f2ea 100%);
+          background: linear-gradient(180deg, #FFF0F0 0%, #FDE8E8 50%, #F8D9D9 100%);
           border-radius: 6px;
           z-index: 2;
           overflow: hidden;
-          box-shadow: inset 0 0 30px rgba(201,169,110,0.05);
+          box-shadow: inset 0 0 30px rgba(123,17,19,0.05);
           transform: scale(1);
           transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
@@ -167,7 +167,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-size: 10px;
           letter-spacing: 0.45em;
           text-transform: uppercase;
-          color: #b08968;
+          color: #7B1113;
           margin-bottom: 20px;
           margin-top: auto;
           z-index: 2;
@@ -178,7 +178,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-family: "Great Vibes", cursive;
           font-size: 60px;
           line-height: 1.1;
-          color: #3d2e1f;
+          color: #5C0809;
           margin: 0 0 10px 0;
           font-weight: 400;
           z-index: 2;
@@ -214,7 +214,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-size: 11px;
           font-weight: 500;
           letter-spacing: 0.28em;
-          color: #b08968;
+          color: #7B1113;
         }
 
         .text-church {
@@ -223,7 +223,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           font-style: italic;
           font-weight: 400;
           letter-spacing: 0.1em;
-          color: #8b6f47;
+          color: #5C0809;
           margin-top: 4px;
           text-transform: none;
         }
@@ -235,10 +235,10 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           left: 0;
           width: 66%;
           height: 100%;
-          background: linear-gradient(135deg, #f0e8d8 0%, #e8dcc8 50%, #f2ead8 100%);
+          background: linear-gradient(135deg, #8B181A 0%, #7B1113 50%, #5C0809 100%);
           background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
-          border-right: 1px solid rgba(201,169,110,0.15);
-          box-shadow: 10px 0 30px -10px rgba(139,111,71,0.25);
+          border-right: 1px solid rgba(201,169,110,0.3);
+          box-shadow: 10px 0 30px -10px rgba(92,8,9,0.5);
           transform-origin: left center;
           transform: rotateY(0deg);
           transition: transform 1.5s cubic-bezier(0.25, 1, 0.3, 1), box-shadow 1.5s ease;
@@ -281,11 +281,11 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           height: 54px;
           background: linear-gradient(
             to bottom, 
-            #e4d7c5 0%, 
-            #fdfbf7 25%, 
-            #e0ceba 50%, 
-            #fdfbf7 75%, 
-            #d6c4ae 100%
+            #E8C8C8 0%, 
+            #FFF0F0 25%, 
+            #E0B8B8 50%, 
+            #FFF0F0 75%, 
+            #D6AAAA 100%
           );
           box-shadow: 0 4px 6px rgba(0,0,0,0.1), inset 0 1px rgba(255,255,255,0.5);
         }
@@ -315,7 +315,7 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
           bottom: -60px;
           left: 50%;
           transform: translateX(-50%);
-          color: #b08968;
+          color: #7B1113;
           font-family: "Montserrat", sans-serif;
           font-size: 10px;
           letter-spacing: 0.35em;
@@ -416,9 +416,9 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
               </div>
 
               <h1 className="text-names">
-                Sewwandi
+                Sulakkhana
                 <span className="text-ampersand">&</span>
-                &nbsp;Malith
+                &nbsp;Isuru
               </h1>
 
               <div className="divider">
@@ -429,9 +429,9 @@ export function EnvelopeOpening({ onComplete, onMusicStart }: { onComplete: () =
 
               <div className="text-details">
                 Request the honour of your presence<br />
-                <span className="text-date">Thursday 30 July 2026 At 9:00 AM</span>
-                <span className="text-church">Outdoor hall "SUMMIT RESORT"</span><br />
-                Balangoda
+                <span className="text-date">Wednesday 26 August 2026 At 11:00 AM</span>
+                <span className="text-church">Ruwanara Royal Majestry</span><br />
+                Narammala
               </div>
             </div>
           </div>

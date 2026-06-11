@@ -2,15 +2,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Beige Color Palette */
-  --color-brand-beige: #d4b896;
-  --color-brand-beige-deep: #b08968;
-  --color-brand-champagne: #f5ebe0;
-  --color-brand-ivory: #faf6f1;
-  --color-brand-gold: #c9a96e;
-  --color-brand-gold-light: #e6d5b8;
-  --color-brand-mocha: #8b6f47;
-  --color-brand-sand: #e8ddd3;
+  /* Maroon & Rose-Cream Color Palette */
+  --color-brand-beige: #7B1113; /* Maroon */
+  --color-brand-beige-deep: #5C0809; /* Darker Maroon */
+  --color-brand-champagne: #FDE8E8; /* Rose Cream */
+  --color-brand-ivory: #FFF0F0; /* Light Rose Cream */
+  --color-brand-gold: #D4AF37; /* Metallic Gold Accent */
+  --color-brand-gold-light: #F3E5AB;
+  --color-brand-mocha: #3A0505; /* Deepest maroon for text/contrast */
+  --color-brand-sand: #E8C8C8; /* Dusty Rose / Sand */
 
   --font-serif: "Cormorant Garamond", serif;
   --font-display: "Great Vibes", cursive;
