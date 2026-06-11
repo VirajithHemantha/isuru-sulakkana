@@ -59,11 +59,7 @@ export const RSVPForm: React.FC = () => {
           <p className="text-stone-500/90 font-serif text-lg leading-relaxed mb-6">
             Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.
           </p>
-          <div className="mt-4 mb-6 bg-brand-champagne/50 px-6 py-4 rounded-2xl border border-brand-beige/20">
-            <p className="text-stone-600 font-sans text-sm font-medium">RSVP Contact</p>
-            <p className="text-stone-800 font-serif text-lg mt-1">Suresh Shanaka</p>
-            <a href="tel:+94776341985" className="text-brand-beige-deep font-sans text-base font-semibold hover:underline">+94 776341985</a>
-          </div>
+
           <div className="w-12 h-[1px] bg-brand-beige/50 mx-auto lg:mx-0" />
         </div>
 
