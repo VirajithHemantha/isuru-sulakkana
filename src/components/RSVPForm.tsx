@@ -15,8 +15,19 @@ export const RSVPForm: React.FC = () => {
     setStatus('loading');
 
     try {
-      // Simulate network request latency
-      await new Promise(resolve => setTimeout(resolve, 800));
+      const scriptUrl = 'https://script.google.com/macros/s/AKfycbyTe-1W2xW-4-ubhQV7U19S2Z1EzQQIhHRXaL09Q1GhFN7reyHjVNqzfiBvGjzkLwAv/exec';
+      const payload = new FormData();
+      payload.append('sheet', 'RSVP');
+      payload.append('name', formData.fullName);
+      payload.append('guests', formData.guests);
+      payload.append('dietary', formData.dietaryNotes);
+      payload.append('attendance', 'Yes');
+
+      await fetch(scriptUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: payload,
+      });
 
       setStatus('success');
       setFormData({ fullName: '', guests: '1', dietaryNotes: '' });
