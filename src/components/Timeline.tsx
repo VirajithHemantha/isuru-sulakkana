@@ -4,8 +4,6 @@ import { Heart, Music, Camera, Utensils, PartyPopper } from 'lucide-react';
 
 const events = [
   { time: '10:30 AM', title: 'Welcoming guests', icon: Heart, desc: 'A warm welcome to our loved ones at Ruwanara Royal Majestry' },
-  { time: '11:00 AM', title: 'Poruwa Ceremony', icon: Music, desc: 'The traditional and sacred Poruwa ceremony' },
-  { time: '12:00 PM', title: 'Registration', icon: Camera, desc: 'Signing of the marriage register' },
   { time: '12:30 PM', title: 'Buffet opening', icon: Utensils, desc: 'A grand celebratory feast' },
   { time: '04:00 PM', title: 'Wedding send off', icon: PartyPopper, desc: 'Farewell as we begin our journey together' },
 ];
